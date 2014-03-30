@@ -653,6 +653,15 @@ if (!empty($checkboxes))
 {
 
 ?>
+
+<?php if ($luna_config['o_rules'] == '1' && $luna_user['num_posts'] == 0): ?>
+
+	<div class = "alert alert-info">
+		<?php echo $lang['Rules Reminder']; ?>
+	</div>
+
+<?php endif; ?>
+
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title"><?php echo $lang['Options'] ?></h3>

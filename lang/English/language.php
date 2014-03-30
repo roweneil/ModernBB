@@ -73,6 +73,7 @@ $lang = array(
 'Previous'							=>	'Previous',
 'Next'								=>	'Next',
 'Spacer'							=>	'…', // Ellipsis for paginate
+'Rules Reminder'					=>	'Please ensure that you have read and abide to the <a href = "misc.php?action=rules" target = "_blank">forum rules</a> before posting.',
 
 // Title
 'Title'								=>	'Title',
